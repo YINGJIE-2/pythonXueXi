@@ -37,7 +37,7 @@ class NFC:
 
 class RemoteControl:
     rc_type="红外遥控"
-    def control(self):
+    def control():
         print("红外遥控开启了")
 
 class MyPhone(Phone,NFC,RemoteControl):
