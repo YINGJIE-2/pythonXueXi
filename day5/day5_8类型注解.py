@@ -16,7 +16,7 @@ my_tuple: tuple = (1, 2, 3)
 my_dict: dict = {"苹果": 1999}
 
 my_list: list[int] = [1, 2, 3]
-my_tuple: tuple[int] = (1, 2, 3)
+my_tuple: tuple[int,int,int] = (1, 2, 3)
 
 # 注释注解
 
