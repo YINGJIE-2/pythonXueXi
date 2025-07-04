@@ -48,7 +48,7 @@ class Midea_AC(AC):
 
     def hot_wind(self):
         print("美的空调制热")
-
+    
     def swing_l_r(self):
         print("美的空调左右摆风")
 
