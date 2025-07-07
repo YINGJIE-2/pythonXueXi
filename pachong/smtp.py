@@ -10,7 +10,7 @@ my_user = '3515732580@qq.com'  # 收件人邮箱账号
 def mail():
     ret = True
     try:
-        f = open("t.txt","r",encoding="utf-8")
+        f = open("t.txt", "r", encoding="utf-8")
         msg = MIMEText(f.read(), 'plain', 'utf-8')
         msg['From'] = formataddr(["鲍杰", my_sender])  # 括号里的对应发件人邮箱昵称、发件人邮箱账号
         msg['To'] = formataddr(["鲍杰2", my_user])  # 括号里的对应收件人邮箱昵称、收件人邮箱账号
