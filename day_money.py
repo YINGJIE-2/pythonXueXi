@@ -1,5 +1,5 @@
 import time
-from datetime import datetime, timedelta
+from datetime import datetime
 
 # 每日收入设定（单位：元）
 DAILY_INCOME = 100
